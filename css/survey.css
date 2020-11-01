@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#head{
+	width: 100%;
+	min-height: 1379px;
+}
+#bg{
+	width: 1400px;
+	height: 1379px;
+	margin: 0 auto;
+
+	/*border:1px solid red; */
+}
+/*学院logo栏*/
+#top{
+	width: 1400px;
+	height: 100px;
+	/*border-bottom: 1px dashed gray;*/
+	background:#1F5286;
+}
+/*左侧学院logo*/
+#img1{
+	width:80px;
+	height: 80px;
+	border-radius: 100px;
+	float: left;
+}
+/*中部学院名称*/
+#top-center{
+	width: 280px;
+	height: 80px;
+	float: left;
+}
+p{
+	text-indent: 10px;
+}
+#p1{
+	font-size: 28px;
+	margin-top: 3px;
+	font-weight: bold;
+	font-family: "楷体"; 
+	color: #fff;
+}
+#p2{
+	margin-top: 15px;
+	color: lightgray;
+
+}
+/*右侧搜索框*/
+#top-right{
+	width: 280px;
+	height: 80px;
+	float: right;
+}
+input,button{
+	float: left;
+}
+/*导航*/
+#nav{
+	width: 1400px;
+	height: 50px;
+	background:linear-gradient(#79A0C4,#1F5286,#1F5286); 
+}
+#nav>ul{
+	float: left;
+}
+#nav>ul>li{
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	list-style: none;
+	float: left;
+	/*margin-left: 60px;*/
+}
+#nav>ul>li:nth-child(1){
+	margin-left: 110px;
+}
+#nav>ul>li:hover{
+	cursor: pointer;
+	background: red;
+	background:#0D2C4B; 
+	border-bottom: 1px solid black;
+}
+#nav>ul>li>a{
+	color: black;
+	color: #FFF;
+	text-decoration: none;
+}
+#nav>ul>li>a:hover{
+	color: yellow;
+}
+#nav>ul>li>ul>li{
+	width: 130px;
+	height: 30px;
+	color: #fff;
+	list-style: none;
+	text-align: center;
+	line-height: 30px;
+	background:#6F90B2;
+}
+#nav>ul>li>ul>li:hover{
+	/*color: yellow;*/
+	background:#1A2471;
+}
+#nav>ul>li>ul{
+	display: none;
+}
+#nav>ul>li:hover>ul{
+	display: block;
+}
+/*中部-图片*/
+#main-img{
+	width: 1400px;
+	height: 300px;
+	background-image: url("../images/q17.png");
+	background-size: 1400px 300px;
+}
+/*中部*/
+#main{
+	width: 1200px;
+	height: 750px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+/*中部 导航*/
+#main-nav{
+	width: 1200px;
+	height: 40px;
+	/*border: 1px solid black;*/
+}
+#main-nav>ul>li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	list-style: none;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 80px;
+	border-bottom: 1px solid gray;
+}
+#main-nav>ul>li:nth-child(1){
+	margin-left: 180px;
+}
+#main-nav>ul>li>a{
+	color: black;
+	text-decoration: none;
+}
+#main-nav>ul>li:hover{
+	background: lightgray;
+
+}
+#main-left>h1{
+	font-family: "楷体";
+	font-weight: bold;
+	border-bottom: 2px solid navy;
+}
+#main-left>h1>span{
+	font-family: "楷体";
+	font-size: 16px;
+	color: navy;
+}
+/*中部 左侧*/
+#main-left{
+	width: 800px;
+	height: 707px;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 20px;
+}
+/*中部 右侧*/
+#main-right{
+	width: 350px;
+	height: 707px;
+	margin-left: 40px;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-top: 20px;
+}
+#main-right>li{
+	margin-top: 20px;
+	list-style-type: square;
+
+	border-bottom: 1px solid lightgray; 
+}
+#main-right>li>a{
+	color: black;
+}
+#main-right>li>a:hover{
+	color: red;
+}
+/*底部*/
+#buttom{
+	width: 100%;
+	height: 130px;
+	float: left;
+	/*border: 1px solid purple;*/
+	/*background:linear-gradient(#fff,#D8D8F5,#A7A7D1,#AAAAD6); */
+	background:#22132D;
+	margin-top: 40px;
+}
+.one>li{
+	width:100%;
+	list-style: none;
+	color: #fff;
+	text-align: center;
+
+}	
+.one{
+	width: 50%;
+	/*background: red;*/
+	margin:0 auto; 
+/*	line-height:5px;*/
+	margin-top:15px;
+}
